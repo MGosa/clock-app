@@ -1,6 +1,56 @@
+body {
+  background-color: #dbd8e3;
+}
 h1 {
   text-align: center;
+  padding-top: 20px;
+}
+h2 {
+  margin: 0 0 5px 0;
+  font-size: 25px;
 }
 footer {
   text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+select {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5px;
+  background-color: #fafafb;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px;
+  padding: 10px 15px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+.date {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+.time {
+  font-size: 45px;
+  font-weight: 550;
+}
+.time small {
+  vertical-align: text-top;
+  font-size: 20px;
+  line-height: 44px;
 }
